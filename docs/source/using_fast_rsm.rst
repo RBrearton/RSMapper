@@ -104,22 +104,11 @@ Because map_per_image stores every q-vector for every pixel in the image, the co
 
     Process_outputs explained
 
-     'full_reciprocal_map'
-
-    calculates a full reciprocal space map combining all scans listed into a single volume. Use this option for scan such as crystal truncation rod scans, fractional order rod scans, or  in-plane HK scans, 
-
-
-     'pyfai_qmap'  
-
-    calculates 2d q_parallel Vs q_perpendicular plots using pyFAI. Use this options for GIWAXS measurements either with a static detector or a moving detector.
-
-
-    'pyfai_ivsq'
-
-      calculates 1d Intensity Vs Q using pyFAI. Use this options for GIWAXS measurements either with a static detector or a moving detector.
-
-
-    ***DEPRECATED OPTIONS***
+     'full_reciprocal_map'cd ../
+rm -rvf fast_rsm
+git clone -b test_docs https://github.com/DiamondLightSource/fast_rsm
+cd fast_rsm
+sphinx-build -b html docs/source docs/build
 
      'pyfai_2dqmap_IvsQ' - use parallel multiprocessing to calculate both 2d Qpara Vs Qperp map, as well as 1d  Intensity Vs Q integration - both using pyFAI package
 
@@ -161,20 +150,7 @@ Job submitted, waiting for SLURM output.  Timer=## --> this line checks for a ne
 Slurm output file: /path/to/home/fast_rsm//slurm-#####.out  --> if new SLURM output file is found within timer limit, output file path
 
 
-***********************************
+*'**********************************
  ***STARTING TO MONITOR TAIL END OF FILE, TO EXIT THIS VIEW PRESS ANY LETTER FOLLOWED BY ENTER****   --> monitoring of tail end of slurm out file to monitor progress of calculation
 
-*********************************** 
-
-
- 
-
-
-
-
-
-
-
-
-
-
+*'********************************** 
