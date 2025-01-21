@@ -138,7 +138,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'fast_rsm.tex', 'fast_rsm Documentation',
-     'Andrew R. McCluskey', 'manual'),
+     'Richard Brearton', 'manual'),
 ]
 
 
@@ -159,7 +159,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'fast_rsm', 'fast_rsm Documentation',
-     author, 'fast_rsm', 'X-ray reflectometry reduction.',
+     author, 'fast_rsm', 'fast reciprocal space mapping.',
      'Miscellaneous'),
 ]
 
