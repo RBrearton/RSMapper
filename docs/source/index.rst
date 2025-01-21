@@ -38,6 +38,7 @@ Acknowledgements
    :hidden:
    :maxdepth: 2
    using_fast_rsm
+   modules
 
 
 
