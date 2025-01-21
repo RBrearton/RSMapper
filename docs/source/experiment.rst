@@ -1,3 +1,6 @@
+fast_rsm\.experiment
+===================
+
 .. automodule:: fast_rsm.experiment
     :members:
     :undoc-members:
