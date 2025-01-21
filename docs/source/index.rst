@@ -37,6 +37,7 @@ Acknowledgements
 .. toctree::
    :hidden:
    :maxdepth: 2
+   using_fast_rsm
 
 
 
