@@ -4,7 +4,7 @@ API
 .. toctree::
    :maxdepth: 4
 
-   corections
+   corrections
    diamond_utils
    experiment
    image
@@ -13,3 +13,4 @@ API
    rsm_metadata
    scan
    writing
+   binning
