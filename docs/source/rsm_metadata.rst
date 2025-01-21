@@ -1,4 +1,4 @@
-.. automodule:: fast_rsm.corrections
+.. automodule:: fast_rsm.rsm_metadata
     :members:
     :undoc-members:
     :show-inheritance:
